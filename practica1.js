@@ -1,11 +1,15 @@
-const ternure ={
-    edad:68,
-    Hobbie:"Preparacion de churros",
-    titulo:"Diosa Potaxie",
-    nPatas:3
+alert("Cree una contraseña");
+const contraseña = prompt();
+contraseña=contraseña.toLowerCase();
+alert("Contra guardada");
+alert("Ingrese Su Contraseña");
+var contra = prompt();
+contra=contra.toLowerCase();        
+
+
+if (contra === contraseña){
+    alert("Bienvenido")
+}else{
+    alert("Paila no es")
 }
 
-const ternura68 = ternure;
-ternura68.profesion = "Psicologa68"
-console.log(ternura68)
-console.log(ternure)
